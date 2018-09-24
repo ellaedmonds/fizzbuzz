@@ -44,8 +44,14 @@ Fizz
 Fizz
 Buzz
 """
+i=1
+k = int(input("How many numbers shall we print? "))
+F = int(input("For multiples of what number shall we print 'Fizz'? "))
+B = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 
+while i <= k:
+    if %i/15
 
 
 
