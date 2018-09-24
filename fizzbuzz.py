@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Ella Edmonds
+Credit: none
 
 Assignment:
 
@@ -44,3 +44,9 @@ Fizz
 Fizz
 Buzz
 """
+
+
+
+
+
+
