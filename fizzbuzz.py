@@ -55,7 +55,7 @@ while i <= k:
         print('fizzbuzz')
     else:
         print (i)
-    i+1
+    i = i+1
 
 
 
