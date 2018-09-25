@@ -46,12 +46,15 @@ Buzz
 """
 i=1
 k = int(input("How many numbers shall we print? "))
-F = int(input("For multiples of what number shall we print 'Fizz'? "))
-B = int(input("For multiples of what number shall we print 'Buzz'? "))
+f = int(input("For multiples of what number shall we print 'Fizz'? "))
+b = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 
 while i <= k:
-    if %i/15
+    if i%(f*b) == 0:
+        print('fizzbuzz')
+    else:
+        print (i)
 
 
 
