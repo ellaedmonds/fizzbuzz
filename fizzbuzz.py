@@ -51,8 +51,12 @@ b = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 
 while i <= k:
-    if (f*b)%i == 0:
+    if i%(f*b) == 0:
         print('fizzbuzz')
+    elif i%f == 0:
+        print ('fizz')
+    elif i%b == 0:
+        print ('buzz')
     else:
         print (i)
     i = i+1
