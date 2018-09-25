@@ -51,7 +51,7 @@ b = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 
 while i <= k:
-    if i%f and i%b == 0:
+    if i%f == 0 and i%b == 0:
         print('FizzBuzz')
     elif i%f == 0:
         print ('Fizz')
